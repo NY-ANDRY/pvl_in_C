@@ -55,7 +55,6 @@ export default class MapBuilder {
         if (!response.ok) {
             alert("Error");
         }
-        console.log(response);
 
         return response.json();
     }
